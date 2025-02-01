@@ -23,7 +23,7 @@
 
 </head>
 <body class="sora-font">
-    <header class="bg-linear-to-t from-[#FFFFFF] to-[#EFEBE3] mt-1 md-15 p-2">
+    <header style="background: linear-gradient(180.00deg, rgb(255, 255, 255),rgb(239, 235, 227) 100%);" class="mt-1 md-15 p-2">
         <nav class="flex justify-between items-center mx-10 my-4  p-4  mb-12 ">
             <div>
                 <img class="hidden md:flex" src="/c2-assets/logo-header.png" alt="">
@@ -89,7 +89,7 @@
 
         </div>
        </section>
-       <!-- popular products -->
+       <!-- popular products --> <script src="https://cdn.tailwindcss.com"></script>
        <section class="mt-20 bg-[#EFEBE3] pt-20 pb-32">
             <div class="max-w-6xl mx-auto">
                 <h4 class="font-semibold text-4xl text-[#179800] mb-12">Popular Products</h4>
@@ -105,7 +105,7 @@
 
                     </div >
                     <!-- grid part -->
-                    <div class="w-full  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-3 rounded-xl">
+                    <div class="w-full  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 gap-3 rounded-xl">
                         <!-- 1st -->
                         <div class="flex bg-white p-2 gap-4 justify-center items-center rounded-lg">
                             <div class="bg-[#EFEBE3] rounded-xl flex justify-center items-center px-2 py-3">
@@ -255,8 +255,8 @@
             </div>
        </section>
        <!-- Arrival and offers part -->
-       <section class="mt-20 pt-20 pb-32  poppins-regular">
-            <div class="max-w-6xl mx-auto">
+       <section class="mt-20 mb-20 pt-20 pb-32  poppins-regular">
+            <div class="max-w-6xl mx-auto mb-20">
                 <h3 class="text-4xl font-semibold text-[#179800] mb-12">Arrival & Offers</h3>
                 <div class="p-4  md:flex md:gap-5  ">
                     <div class="mb-4 w-full bg-[#115414] flex rounded-3xl p-4" >
@@ -288,8 +288,25 @@
             </div>
             
        </section>
+       <!-- special Part -->
+       <section class="  mt-20 pt-20 pb-32  ">
+            <div class="md:relative relative">
+                <div class="mx-2 -top-96 mt-6 pt-4  absolute md:absolute md:left-4 lg:left-72 lg:-top-40 max-w-6xl  bg-[#EFEBE3] p-12 md:flex gap-8 rounded-xl md:mx-4" >
+                    <div>
+                        <img class="p-4" src="/c2-assets/vegetable-busket.png" alt="">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-4xl font-semibold text-[#111111] mb-4 p-1">Get Grocery News!</h3>
+                        <p class="p-1 mb-4 text-[#111111] text-xl">Exclusive training tips, ticks, product deals and more.</p>
+                        <input class="bg-white rounded-xl py-4 px-4" type="email" placeholder="Enter email">
+                        <button class="bg-[#179800] px-4 py-2 mt-4 w-1/3 rounded-xl text-white text-xl hover:text-slate-300" >Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+       </section>
     </main>
-    <footer class="bg-[#179800] text-white md:flex p-6 md:justify-between md:items-center">
+    <footer class=" pt-48 bg-[#179800] text-white md:flex p-6 md:justify-between md:items-center">
         <div class="w-1/3 p-4">
             <img class="mb-3 mt-4 p-3" src="/c2-assets/logo-footer.png" alt="">
             <p class="text-[#FFFFFFB3] text-xl mt-3 p-2">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
